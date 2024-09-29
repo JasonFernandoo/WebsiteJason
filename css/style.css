@@ -228,3 +228,99 @@ button:hover {
 ::-webkit-scrollbar-track {
     background: transparent; 
 }
+
+@media (max-width: 460px) {
+    .navigator {
+        display: none; 
+    }
+
+    .logo p{
+        margin-left: 40%;
+    }
+
+    li {
+        display: none; 
+    }
+
+    footer {
+        width: auto;
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .footer-container {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .footer-top h1 {
+        font-size: 32px; 
+    }
+
+    .footer-mid {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        height: auto;
+        margin: 0; 
+    }
+
+    .footer-left h2 {
+        font-size: 36px; 
+    }
+
+    .footer-left p {
+        font-size: 18px; 
+    }
+
+    .footer-button a {
+        font-size: 24px; 
+    }
+
+    .footer-button a:hover {
+        font-size: 28px;
+    }
+
+    .footer-right {
+        margin-top: 20px; 
+    }
+
+    .footer-button {
+        margin-top: 5%;
+    }
+
+    .footer-right form {
+        width: 100%;
+        height: auto;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-right form input {
+        width: 90%;
+    }
+
+    .footer-right form textarea {
+        width: 90%;
+    }
+
+    .footer-right form button {
+        width: 95%;
+    }
+
+    .footer-bottom {
+        height: auto;
+        margin-top: 20px; 
+        border-top: none; 
+    }
+
+    .footer-bottom p {
+        font-size: 14px;
+    }
+}

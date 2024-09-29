@@ -196,3 +196,54 @@
     }
     
 }
+
+@media (max-width: 460px) {
+    .service {
+        height: 180vh;
+        margin-top: -25%;
+    }
+    .service-container {
+        width: 100%;
+        height: auto;
+        padding: 5%;
+    }
+
+    .service-container h1 {
+        font-size: 48px;
+    }
+
+    .service-top, .service-bottom {
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    .service-box1, .service-box2, .service-box3, .service-box4 {
+        width: 90%;
+        height: 200px;
+        animation: none;
+        margin-top: 10%;
+    }
+
+    .box-text h2 {
+        font-size: 24px;
+    }
+
+    .box-text p {
+        font-size: 18px;
+    }
+
+    .box1-desc, .box2-desc, .box3-desc, .box4-desc {
+        flex-direction: column;
+    }
+
+    .box-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-text {
+        width: 85%;
+        height: auto;
+        padding: 5%;
+    }
+}
