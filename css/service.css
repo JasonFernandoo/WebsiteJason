@@ -178,6 +178,12 @@
     overflow: hidden;
 }
 
+.box-img img {
+    width: 75%;
+    height: 45%;
+    object-fit: cover;
+}
+
 @keyframes moveUpDownBox {
     0%, 100% {
         transform: translateY(5px);
