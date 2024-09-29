@@ -252,4 +252,8 @@
         height: auto;
         padding: 5%;
     }
+
+    .box-img img {
+        display: none;
+    }
 }
