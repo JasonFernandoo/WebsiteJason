@@ -1,0 +1,19 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    width: auto;
+    background-color: #0a1d23;
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container {
+    height: 100%;
+    width: 100%;
+    background: url(../images/home.jpg);
+    background-size: cover;
+}

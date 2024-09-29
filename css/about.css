@@ -1,0 +1,191 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d1a90;
+}
+
+.about-container {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.about-img {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    height: 80%;
+    width: 80%;
+}
+
+.about-text {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    height: 27%;
+    width: 55.7%;
+    display: flex;
+    align-items: center;
+    background: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2lueW45a3JyZ3UycTM2Z24xMXhzdTQ2eGM4bjBhNnM4NGZqemk4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/DKOWzJfnxTefluV2co/200.webp);
+    background-size: cover;
+    padding-left: 5%;
+    font-size: 30px;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+}
+
+.about-title h1 {
+    animation: moveUpDown 2.5s infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); 
+    }
+}
+
+.about-desc {
+    height: 35%;
+    width: 90%;
+    margin-top: 1%;
+}
+
+.about-desc p {
+    font-size: 22px;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+    text-align: justify;
+    color: #9790ef;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+}
+
+.about-sb {
+    height: 25%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.about-skill {
+    height: 100%;
+    width: 90%;
+    margin-top: 1%;
+}
+
+.about-skill h1 {
+    font-size: 30px;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+    color: #e893f0;
+    padding-top: 1%;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+}
+
+.skill-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+}
+
+.p1 {
+    color: #ffffff;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+    font-size: 20px;
+}
+
+.skill-bar {
+    width: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+}
+
+.skills {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.html {
+    width: 80%;
+    background-color: #e893f0;
+}
+
+.css {
+    width: 70%;
+    background-color: #e893f0;
+}
+
+.skill-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+}
+
+.js {
+    width: 60%;
+    background-color: #e893f0;
+}
+
+.python {
+    width: 70%;
+    background-color: #e893f0;
+}
+
+.about-button {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10%;
+}
+
+.about-button i {
+    font-size: 30px;
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+
+.about-button i:hover {
+    color: #e893f0;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 35px;
+    transform: translateX(5px);
+}

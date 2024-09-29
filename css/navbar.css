@@ -1,0 +1,60 @@
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff00;
+    padding: 20px;
+    transition: all ease .50s;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.logo p {
+    font-size: 32px;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+}
+
+.navigator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigator li{
+    list-style: none;
+}
+.navigator a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 20px;
+    transition: all ease 0.5s;
+    font-size: 24px;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+}
+.navigator a:hover{
+    font-size: 28px;
+    color: #c0b1f1;
+    text-decoration: underline;
+    transition: all ease 0.5s;
+}
+
+#menu-icon{
+    font-size: 42px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}

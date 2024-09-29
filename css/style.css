@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+:root {
+    
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    height: 50vh;
+    width: 100%;
+    background-color: #2d1a90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-container {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-top {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top h1 {
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+    font-size: 44px;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+    animation: moveUpDown 3s infinite;
+}
+
+.footer-mid {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-left {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.footer-left-text {
+    width: 100%;
+    height: 65%;    
+}
+
+.footer-button {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-button a {
+    font-size: 30px;
+    color: #898deb;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.footer-button a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 35px;
+    transition: 0.5s ease;
+}
+
+.footer-left h2 {
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+    font-size: 56px;
+    margin-bottom: 3%;
+    color: #898deb;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+}
+
+.footer-left p {
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+}
+
+.footer-right {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #747ae8;
+    border-radius: 20px;
+    margin: 5%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+    animation: zoomInOut 2.5s infinite;
+}
+
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.footer-right form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 90%;
+    width: 95%;
+}
+
+input::placeholder {
+    color: #ffffff;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+}
+
+input {
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: #898deb;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+}
+
+textarea {
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+    height: 100px;
+    background-color: #898deb;
+    border: none;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+}
+
+textarea::placeholder {
+    color: #ffffff;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+}
+
+button {
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #898deb;
+    color: #ffffff;
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #898deb;
+    transition: 0.5s ease;
+}
+
+.footer-bottom {
+    margin-top: 2%;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+}
+
+.footer-bottom p {
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
